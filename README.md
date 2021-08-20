@@ -20,6 +20,10 @@ finish, but this one shows CPU usage between invocations instead, which means
 that all you need to do to change the resolution in i3blocks is to change the
 i3blocks "interval" as with any other program.
 
+This program outputs the usage since last invocation, so if this tool is being
+invoked by multiple programs, the output may apply to an unacceptably short
+period of time.
+
 # How to build
 
 1. install dune (the ocaml build tool)

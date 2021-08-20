@@ -1,0 +1,6 @@
+(executable
+ (name cpu_usage)
+ (libraries unix)
+ (modes exe)
+ (promote)
+ (ocamlopt_flags (:standard -compact -O2)))
